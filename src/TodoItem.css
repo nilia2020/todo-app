@@ -6,6 +6,9 @@
   align-items: center;
   margin-top: 24px;
   box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+  color:rgba(32, 35, 41, 0.85);
+  border-radius: 10px;
+  margin-inline: 24px;
 }
 
 .TodoItem-p {
@@ -14,9 +17,11 @@
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
+  
 }
 .TodoItem-p--complete {
   text-decoration: line-through;
+  
 }
 
 .Icon {
@@ -40,9 +45,12 @@
 }
 
 .Icon-delete {
+  color: #112386;
   position: absolute;
-  top: -24px;
   right: 0;
+ 
+  
+  ;
 }
 .Icon-delete:hover {
   color: red;
