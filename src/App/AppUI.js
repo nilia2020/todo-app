@@ -6,6 +6,7 @@ import { TodoList } from "../TodoList";
 import { TodoItem } from "../TodoItem";
 import { CreateTodoButton } from "../CreateTodoButton";
 import { Modal } from "../Modal";
+import { TodoForm } from "../TodoForm";
 
 function AppUI() {
     const { error, loading, searchedTodos, completeTodo, deleteTodo, openModal, setOpenModal } =
@@ -32,7 +33,7 @@ function AppUI() {
             </TodoList>
             {!!openModal && (
                 <Modal>
-                    <p>Tele</p>
+                    <TodoForm />
                 </Modal>
             )}
 
